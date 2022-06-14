@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ServiceStack.Interfaces</id>
+    <version>5.12.0</version>
+    <title>Lightweight and implementation-free interfaces for ServiceStack</title>
+    <authors>ServiceStack</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://servicestack.net/terms</licenseUrl>
+    <projectUrl>https://github.com/ServiceStack/ServiceStack</projectUrl>
+    <iconUrl>https://servicestack.net/img/logo-64.png</iconUrl>
+    <description>Lightweight and implementation-free interfaces for DTO's, providers and adapters.</description>
+    <releaseNotes>https://docs.servicestack.net/release-notes-history</releaseNotes>
+    <copyright>© 2008-2019 ServiceStack, Inc</copyright>
+    <tags>ServiceStack Common Framework Clients ServiceClients Gateway</tags>
+    <repository type="git" url="https://github.com/ServiceStack/ServiceStack.git" commit="1a1394cf9362d69fadd532449793ae4a0c9af64d" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

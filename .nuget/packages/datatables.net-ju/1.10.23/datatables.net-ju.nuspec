@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>datatables.net-ju</id>
+    <version>1.10.23</version>
+    <authors>SpryMedia Ltd</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>http://datatables.net/</projectUrl>
+    <description>jqueryUI integration for DataTables</description>
+    <tags>DataTables jQuery table jqueryUI</tags>
+    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-jqueryUI.git" />
+    <dependencies>
+      <dependency id="jquery" version="1.7.0" />
+      <dependency id="datatables.net" version="1.10.23" />
+      <dependency id="jqueryui" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Rotativa.AspNetCore</id>
+    <version>1.2.0</version>
+    <authors>Giorgio Bozio</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/webgio/Rotativa.AspNetCore</projectUrl>
+    <description>Rotativa: PDF easy creation for Asp.Net Core</description>
+    <releaseNotes>Setup for .net core</releaseNotes>
+    <copyright>2021 Viva Software di Bozio Giorgio</copyright>
+    <tags>PDF AspNetCore</tags>
+    <repository url="https://github.com/webgio/Rotativa.AspNetCore" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

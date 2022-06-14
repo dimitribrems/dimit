@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Shipwreck.BlazorFramework.Core</id>
+    <version>0.2.0</version>
+    <authors>shipwreck.jp</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/pgrho/blazor-framework</projectUrl>
+    <description>Base classes for writing Blazor WebAssembly components with DataContext.</description>
+    <copyright>Copyright © 2020 shipwreck.jp</copyright>
+    <repository url="https://github.com/pgrho/blazor-framework" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.AspNetCore.Components.WebAssembly" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="Shipwreck.ViewModelUtils" version="0.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
